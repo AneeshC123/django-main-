@@ -1,0 +1,159 @@
+
+.description{
+    background-color: lightgrey;
+    font-size: 14px;
+    padding-top: 1px;
+}
+nav{
+    
+    background-image: linear-gradient(to bottom right, #FD8451, #FFBD6F);
+ 
+    
+}
+
+#search{
+  border: none;
+  background-color:  rgba(76, 175, 80, 0);
+
+}
+.main2{
+
+    background-image: linear-gradient(to bottom right, #FDFCFB, #E2D1C3);
+    
+    
+}
+
+
+.nav-item:hover i{
+    color:lightgray;
+    transition: 0.3s;
+}   
+.form-control{
+  
+}
+
+.card-body{
+    height:min-content ;
+    background-color: lightgrey;
+}
+.card:hover .card-body{
+    background-image: linear-gradient(to bottom right, #FD8451, #FFBD6F);
+    color: lightgrey;
+   
+}
+.card:hover{
+    box-shadow: 5px 5px 5px 5px lightgray;
+}
+#download{
+    width: 180px;
+    border-radius: 10px;
+    
+}
+#download:hover{
+    box-shadow: 5px 5px 5px 3px rgb(59, 59, 59) ;
+}
+.app-download {
+    
+    background-color: lightgrey;
+    
+}
+.down-bar{
+    background-image: linear-gradient(to bottom right, #FD8451, #FFBD6F); 
+    color: lightgrey;
+    position: static;
+    left: 0;
+    bottom: 0;
+}
+  .down-bar a:link {
+    color: lightgray;
+      text-decoration: none;
+      
+}
+.link{
+  color: lightgray;
+}
+#about-page{
+  background-image: linear-gradient(to bottom right, #FDFCFB, #E2D1C3);
+
+}
+.img-fluid{
+  height: 400px;
+}
+#contact-page{
+  background-image: linear-gradient(to bottom right, #FDFCFB, #E2D1C3);
+}
+#email{
+  border-radius: 5px;
+  border: none;
+}
+#password{
+  border-radius: 5px;
+  border: none;
+}
+#login-img{
+ font-size: xx-large;
+  
+}
+#direct-page{
+  background-image: linear-gradient(to bottom right, #FDFCFB, #E2D1C3);
+}
+#wine-list{
+  border-radius: 20px;
+}
+#wine-list h3{
+  color: orange;
+}
+#wine-direct{
+  
+}
+#domestic-wine{
+  border-radius: 10px;
+  border: none;
+  color: orange;
+}
+#domestic-wine:hover{
+  background-color: orange;
+  color: white;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+   .description{
+    font-size: 13px;
+   }
+    #search{
+    margin-top: 10px;
+   } 
+   .nav-item{
+    font-size: 13px;
+   }
+   .form-control{
+    margin-top: 10px;
+   }
+    .carousel-item img{
+    height: 250px;
+   }
+   
+  .card-title{
+    min-width: min-content;
+    font-size: 13px;
+    
+  }
+  .app-download h5{
+    font-size: 13px;
+  }
+  #download{
+    width: 70px;
+  }
+  .down-bar{
+    font-size: 13px;
+  }
+  .down-bar h3{
+    font-size: 15px;
+  }
+  
+}
+
+    
+  
